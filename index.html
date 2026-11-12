@@ -22,7 +22,7 @@
 
         body {
             font-family: 'Jua', sans-serif;
-            /* 바다와 해변 그라데이션 (딥 오션 블루 -> 해변 모래빛) */
+            /* 바다와 해변 그라데이션 (오션 블루 -> 해변 모래빛) */
             background: linear-gradient(180deg, #0f1b29 0%, #1a364a 40%, #2b526c 70%, #8c7a6b 100%);
             color: #ffffff;
             min-height: 100vh;
@@ -55,7 +55,7 @@
             }
         }
 
-        /* 마우스 어두운 초록색 반짝이 이펙트 */
+        /* 마우스 흰색 반짝이 이펙트 */
         .sparkle {
             position: fixed;
             width: 8px;
@@ -542,7 +542,7 @@
         }
         createSnowflakes();
 
-        /* 2. 어두운 초록색 마우스 반짝이 이펙트 */
+        /* 2. 흰색 마우스 반짝이 이펙트 */
         document.addEventListener('mousemove', function(e) {
             if (Math.random() < 0.35) {
                 const sparkle = document.createElement('div');
